@@ -33,7 +33,6 @@ export default function FlightsPage() {
   const fromLocation = searchParams.get("from") || ""
   const toLocation = searchParams.get("to") || ""
   const departureDate = searchParams.get("departure") || ""
-  const returnDate = searchParams.get("return") || ""
   const passengers = searchParams.get("passengers") || "1"
 
   // Format the departure date for display
